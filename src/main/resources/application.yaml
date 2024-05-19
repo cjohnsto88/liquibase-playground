@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: liquibase-playground
+  liquibase:
+    show-summary: verbose
+decorator:
+  datasource:
+    datasource-proxy:
+      query:
+        log-level: INFO
